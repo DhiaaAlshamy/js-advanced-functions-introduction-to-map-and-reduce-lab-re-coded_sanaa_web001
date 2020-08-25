@@ -15,7 +15,7 @@ function mapToDouble (sourceArray){
 function mapToSquare(sourceArray){
   return sourceArray.map((ele)=>ele*ele );
 }
-function reduceToTotal(sourceArray,startingPoint){
+function reduceToTotal(sourceArray,startingPoint=0){
   return sourceArray.reduce((acc,curr)=>acc+curr ,startingPoint);
 }
 function reduceToAllTrue(sourceArray) {
